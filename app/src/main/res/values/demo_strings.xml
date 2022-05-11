@@ -83,7 +83,7 @@
     <string name="em_server_set_im_port_empty_hint">Set the IM port number</string>
     <string name="em_server_set_rest_server_empty_hint">Set the RESTful server address</string>
 
-    <string name="em_empty_layout_content">Find Yourself, Be Yourself</string>
+    <string name="em_empty_layout_content">Community Warning and Social platform</string>
 
     <string name="were_mentioned">[@Mentioning me]</string>
     <string name="were_not_send_msg">[Draft]</string>
@@ -280,7 +280,7 @@
 
     <string name="em_about_me_set">Settings</string>
     <string name="em_about_me_feedback">Feedback</string>
-    <string name="em_about_me_hx">About Easemob IM</string>
+    <string name="em_about_me_hx">About Community Social and Warning</string>
     <string name="em_about_me_developer">Developer Services</string>
     <string name="em_set_security">Account and Security</string>
     <string name="em_set_privacy">Privacy</string>
@@ -289,8 +289,8 @@
     <string name="em_about_me_service_set">Diagnostics</string>
     <string name="em_privacy_black">Blocklist</string>
     <string name="em_privacy_equipments">Multi-Device Management</string>
-    <string name="em_about_hx_product_introduction">Product introduction</string>
-    <string name="em_about_hx_company_introduction">About Company</string>
+    <string name="em_about_hx_product_introduction">Product Api</string>
+    <string name="em_about_hx_company_introduction">About Author</string>
     <string name="em_about_hx_version">Easemob IM %1$s</string>
     <string name="em_developer_version">Current SDK Version</string>
     <string name="em_developer_appkey_self">Custom AppKey</string>

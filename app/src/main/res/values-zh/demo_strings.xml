@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">环信</string>
-    <string name="demo_app_product_name">环信即时通讯产品</string>
+    <string name="app_name">CSH</string>
+    <string name="demo_app_product_name">毕业设计</string>
 
     <string name="username">用户名</string>
     <string name="password">密码</string>
@@ -83,7 +83,7 @@
     <string name="em_server_set_im_port_empty_hint">请设置IM端口号</string>
     <string name="em_server_set_rest_server_empty_hint">请设置REST服务器地址</string>
 
-    <string name="em_empty_layout_content">寻找自我 保持本色</string>
+    <string name="em_empty_layout_content">社区预警与社交平台</string>
 
     <string name="were_mentioned">[有人@我]</string>
     <string name="were_not_send_msg">[草稿]</string>
@@ -280,7 +280,7 @@
 
     <string name="em_about_me_set">设置</string>
     <string name="em_about_me_feedback">意见反馈</string>
-    <string name="em_about_me_hx">关于环信IM</string>
+    <string name="em_about_me_hx">关于社区预警与社交平台</string>
     <string name="em_about_me_developer">开发者服务</string>
     <string name="em_set_security">账号与安全</string>
     <string name="em_set_privacy">隐私</string>
@@ -289,9 +289,9 @@
     <string name="em_about_me_service_set">诊断</string>
     <string name="em_privacy_black">黑名单</string>
     <string name="em_privacy_equipments">多端多设备管理</string>
-    <string name="em_about_hx_product_introduction">产品介绍</string>
-    <string name="em_about_hx_company_introduction">公司介绍</string>
-    <string name="em_about_hx_version">环信IM %1$s</string>
+    <string name="em_about_hx_product_introduction">产品api</string>
+    <string name="em_about_hx_company_introduction">作者github</string>
+    <string name="em_about_hx_version">CH %1$s</string>
     <string name="em_developer_version">当前SDK版本</string>
     <string name="em_developer_appkey_self">自定义AppKey</string>
     <string name="em_developer_appkey_self_add">添加自定义AppKey</string>
@@ -299,8 +299,8 @@
     <string name="em_developer_appkey_default">默认配置</string>
     <string name="em_developer_allow_token">允许使用token登录</string>
     <string name="em_developer_from_server">优先从服务器获取消息</string>
-    <string name="em_developer_upload_to_hx">消息附件上传到环信服务器</string>
-    <string name="em_developer_upload_to_hx_notice">上传附件到环信服务器，关闭需自定义文件上传</string>
+    <string name="em_developer_upload_to_hx">消息附件上传到第三方服务器</string>
+    <string name="em_developer_upload_to_hx_notice">上传附件到第三方服务器，关闭需自定义文件上传</string>
     <string name="em_developer_msg_sort">消息排序</string>
     <string name="em_developer_msg_sort_receive">按接收顺序</string>
     <string name="em_developer_msg_sort_server">按服务器顺序</string>

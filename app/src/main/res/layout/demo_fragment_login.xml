@@ -7,6 +7,7 @@
     android:background="@color/em_login_color_bg">
 
     <ImageView
+        android:alpha="0.8"
         android:id="@+id/iv_login_icon"
         android:layout_width="82dp"
         android:layout_height="82dp"
@@ -16,7 +17,20 @@
         android:layout_marginBottom="20dp"
         android:background="@drawable/em_login_logo"/>
 
-    <ImageView
+<!--    <ImageView-->
+<!--        android:id="@+id/iv_login_company_name"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintBottom_toTopOf="@id/et_login_name"-->
+<!--        android:layout_marginBottom="50dp"-->
+<!--        android:background="@drawable/em_login_company_name"/>-->
+    <TextView
+        android:alpha="0.4"
+        android:textSize="23sp"
+        android:textColor="@color/design_default_color_background"
+        android:text="社区预警与社交平台"
         android:id="@+id/iv_login_company_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -24,7 +38,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintBottom_toTopOf="@id/et_login_name"
         android:layout_marginBottom="50dp"
-        android:background="@drawable/em_login_company_name"/>
+        />
 
     <TextView
         android:id="@+id/tv_version"
@@ -34,7 +48,7 @@
         app:layout_constraintTop_toTopOf="@id/iv_login_company_name"
         android:layout_marginLeft="5dp"
         android:layout_marginTop="2dp"
-        tools:text="V4.1.0"
+        tools:text="毕设项目"
         android:textSize="10sp"
         android:textColor="@color/white"
         android:background="@drawable/demo_login_version_bg"/>

@@ -65,13 +65,13 @@ public class AboutHxActivity extends BaseInitActivity implements View.OnClickLis
     }
 
     private void jumpToIMIntroduction() {
-        Uri uri = Uri.parse("http://www.easemob.com/product/im");
+        Uri uri = Uri.parse("https://github.com/Sounean");
         Intent it = new Intent(Intent.ACTION_VIEW, uri);
         startActivity(it);
     }
 
     private void jumpToCompanyIntroduction() {
-        Uri uri = Uri.parse("http://www.easemob.com/about");
+        Uri uri = Uri.parse("https://github.com/Sounean");
         Intent it = new Intent(Intent.ACTION_VIEW, uri);
         startActivity(it);
     }

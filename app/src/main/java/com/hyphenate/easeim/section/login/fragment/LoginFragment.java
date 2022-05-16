@@ -21,6 +21,7 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -189,7 +190,9 @@ public class LoginFragment extends BaseInitFragment implements View.OnClickListe
                 switchLogin();
                 break;
             case R.id.tv_login_server_set:
-                mViewModel.setPageSelect(2);
+                //mViewModel.setPageSelect(2);
+                ToastUtils.showToast("服务器IP:118.195.194.196,域名：http://clchelp.xyz/");
+                //Toast.makeText(getActivity(),"服务器IP:118.195.194.196,域名：http://clchelp.xyz/", Toast.LENGTH_LONG);
                 break;
             case R.id.btn_login:
                 hideKeyboard();

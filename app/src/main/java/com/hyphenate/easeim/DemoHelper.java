@@ -720,7 +720,6 @@ public class DemoHelper {
             }
         }
     }
-
     /**
      * get contact list
      *

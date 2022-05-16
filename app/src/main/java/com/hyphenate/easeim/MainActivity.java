@@ -316,7 +316,7 @@ public class MainActivity extends BaseInitActivity implements BottomNavigationVi
     /**
      * 申请权限
      */
-    // TODO: 2019/12/19 0019 有必要修改一下
+    // 可以修改成AOP形式，但是看毕设时间好像不太够
     private void requestPermissions() {
         PermissionsManager.getInstance()
                 .requestAllManifestPermissionsIfNecessary(mContext, new PermissionsResultAction() {
@@ -348,7 +348,7 @@ public class MainActivity extends BaseInitActivity implements BottomNavigationVi
 
     private void switchToDiscover() {
         if(mDiscoverFragment == null) {
-            mDiscoverFragment = new DiscoverFragment();
+            mDiscoverFragment = new DiscoverFragment(); // “发现页”留空
         }
         replace(mDiscoverFragment, "discover");
     }

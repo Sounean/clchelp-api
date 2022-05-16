@@ -200,7 +200,7 @@ public class RegisterFragment extends BaseInitFragment implements TextWatcher, V
         spanStr.setSpan(new MyClickableSpan() {
             @Override
             public void onClick(@NonNull View widget) {
-                WebViewActivity.actionStart(mContext, getString(R.string.em_register_service_agreement_url));
+                WebViewActivity.actionStart(mContext, getString(R.string.em_register_service_agreement_url));   // 关于规范留了两个接口 通过跳转到该网页的方式去实现（主要是webview控件，多出上方栏为了方便用户回退）
             }
         }, 2, 10, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
 
@@ -208,7 +208,7 @@ public class RegisterFragment extends BaseInitFragment implements TextWatcher, V
         spanStr.setSpan(new MyClickableSpan() {
             @Override
             public void onClick(@NonNull View widget) {
-                WebViewActivity.actionStart(mContext, getString(R.string.em_register_privacy_agreement_url));
+                WebViewActivity.actionStart(mContext, getString(R.string.em_register_privacy_agreement_url));   //
             }
         }, 11, spanStr.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
         return spanStr;

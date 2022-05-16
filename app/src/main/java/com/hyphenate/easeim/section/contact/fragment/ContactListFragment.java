@@ -105,7 +105,7 @@ public class ContactListFragment extends EaseContactListFragment implements View
     public void addHeader() {
         contactLayout.getContactList().addCustomItem(R.id.contact_header_item_new_chat, R.drawable.em_friends_new_chat, getString(R.string.em_friends_new_chat));
         contactLayout.getContactList().addCustomItem(R.id.contact_header_item_group_list, R.drawable.em_friends_group_chat, getString(R.string.em_friends_group_chat));
-        contactLayout.getContactList().addCustomItem(R.id.contact_header_item_chat_room_list, R.drawable.em_friends_chat_room, getString(R.string.em_friends_chat_room));
+        //contactLayout.getContactList().addCustomItem(R.id.contact_header_item_chat_room_list, R.drawable.em_friends_chat_room, getString(R.string.em_friends_chat_room));
     }
 
     @Override

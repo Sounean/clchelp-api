@@ -14,6 +14,8 @@ import com.hyphenate.easeim.DemoHelper;
 import com.hyphenate.easeim.R;
 import com.hyphenate.easeim.common.constant.DemoConstant;
 import com.hyphenate.easeim.common.livedatas.LiveDataBus;
+import com.hyphenate.easeim.common.utils.ToastUtils;
+import com.hyphenate.easeim.section.me.activity.AboutRoomActivity;
 import com.hyphenate.easeui.manager.EaseThreadManager;
 import com.hyphenate.easeim.common.widget.ArrowItemView;
 import com.hyphenate.easeim.section.base.BaseInitFragment;
@@ -41,6 +43,8 @@ public class AboutMeFragment extends BaseInitFragment implements View.OnClickLis
     private TextView nickName_view;
     private TextView userId_view;
     private EMUserInfo userInfo;
+    private ArrowItemView itemAboutRoom;
+
     @Override
     protected int getLayoutId() {
         return R.layout.demo_fragment_about_me;
@@ -58,6 +62,7 @@ public class AboutMeFragment extends BaseInitFragment implements View.OnClickLis
         itemAboutHx = findViewById(R.id.item_about_hx);
         itemDeveloperSet = findViewById(R.id.item_developer_set);
         mBtnLogout = findViewById(R.id.btn_logout);
+        itemAboutRoom = findViewById(R.id.item_about_room);
         nickName_view.setText(mContext.getString(R.string.account) + DemoHelper.getInstance().getCurrentUser());
     }
 
@@ -70,6 +75,7 @@ public class AboutMeFragment extends BaseInitFragment implements View.OnClickLis
         itemFeedback.setOnClickListener(this);
         itemAboutHx.setOnClickListener(this);
         itemDeveloperSet.setOnClickListener(this);
+        itemAboutRoom.setOnClickListener(this);
     }
 
     @Override
@@ -96,6 +102,9 @@ public class AboutMeFragment extends BaseInitFragment implements View.OnClickLis
                 break;
             case R.id.item_developer_set:
                 DeveloperSetActivity.actionStart(mContext);
+                break;
+            case R.id.item_about_room:
+                AboutRoomActivity.actionStart(mContext);
                 break;
         }
     }

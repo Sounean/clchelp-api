@@ -38,14 +38,14 @@
     <string name="em_login_tv_server_set">Server configuration</string>
     <string name="em_login_btn_info_incomplete">Username or password cannot be empty.</string>
     <string name="em_login_failed">Login failed</string>
-    <string name="em_login_agreement">I agree to the Easemob Terms of Service and Easemob Privacy Policy</string>
+    <string name="em_login_agreement">I agree to the xxx Terms of Service and xxx Privacy Policy</string>
 
     <string name="em_register_btn">Register \u0020</string>
     <string name="em_register_password_confirm_hint">Confirm password</string>
     <string name="em_register_failed">Registration failed</string>
     <string name="em_register_success">Registration complete, please log in. </string>
-    <string name="em_register_privacy_agreement_url">http://www.easemob.com/protocol</string>
-    <string name="em_register_service_agreement_url">http://www.easemob.com/agreement</string>
+    <string name="em_register_privacy_agreement_url">https://sounean.github.io/</string>
+    <string name="em_register_service_agreement_url">https://sounean.github.io/</string>
 
     <string name="em_password_confirm_error">The passwords don\'t match. Please enter them again. </string>
 
@@ -280,7 +280,8 @@
 
     <string name="em_about_me_set">Settings</string>
     <string name="em_about_me_feedback">Feedback</string>
-    <string name="em_about_me_hx">About Community Social and Warning</string>
+    <string name="em_about_me_hx">About Community News</string>
+    <string name="em_about_me_room">About Room</string>
     <string name="em_about_me_developer">Developer Services</string>
     <string name="em_set_security">Account and Security</string>
     <string name="em_set_privacy">Privacy</string>
@@ -307,7 +308,7 @@
     <string name="em_developer_service_result_unfinished">Unfinished</string>
     <string name="em_user_detail_title">Personal profile</string>
     <string name="em_user_detail_avatar">Avatar</string>
-    <string name="em_user_detail_id">Easemob ID</string>
+    <string name="em_user_detail_id">CSH ID</string>
     <string name="em_user_detail_nickname">Nickname</string>
     <string name="em_login_out_hint">Exit now?</string>
     <string name="em_developer_appkey_warning">The current app key and environment configuration have taken effect. To change the app key, you must restart the client!</string>

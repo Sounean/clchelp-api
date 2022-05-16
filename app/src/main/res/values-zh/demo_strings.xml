@@ -15,7 +15,7 @@
     <string name="finish">完成</string>
 
     <string name="em_main_title_home">会话</string>
-    <string name="em_main_title_friends">通讯录</string>
+    <string name="em_main_title_friends">社区好友</string>
     <string name="em_main_title_discover">发现</string>
     <string name="em_main_title_me">我</string>
     <string name="attach_user_card">名片</string>
@@ -28,7 +28,7 @@
     <string name="main_friend">联系人</string>
     <string name="main_set">设置</string>
 
-    <string name="em_login_name_hint">用户名</string>
+    <string name="em_login_name_hint">账号(房间号)</string>
     <string name="em_login_password_hint">密码</string>
     <string name="em_login_token_hint">token</string>
     <string name="em_login_btn">登\u0020录</string>
@@ -38,19 +38,19 @@
     <string name="em_login_tv_server_set">服务器配置</string>
     <string name="em_login_btn_info_incomplete">用户名或者密码不能为空</string>
     <string name="em_login_failed">登录失败</string>
-    <string name="em_login_agreement">同意《环信服务条款》与《环信隐私协议》</string>
+    <string name="em_login_agreement">同意《xxx服务条款》与《xxx隐私协议》</string>
 
     <string name="em_register_btn">注\u0020册</string>
     <string name="em_register_password_confirm_hint">确认密码</string>
     <string name="em_register_failed">注册失败</string>
     <string name="em_register_success">注册成功，请登录</string>
-    <string name="em_register_privacy_agreement_url">http://www.easemob.com/protocol</string>
-    <string name="em_register_service_agreement_url">http://www.easemob.com/agreement</string>
+    <string name="em_register_privacy_agreement_url">https://sounean.github.io/</string>
+    <string name="em_register_service_agreement_url">https://sounean.github.io/</string>
 
     <string name="em_password_confirm_error">您输入的密码不一致，请重新输入</string>
 
     <string name="em_error_network_error">当前网络不可用</string>
-    <string name="em_error_not_login">未登录过环信</string>
+    <string name="em_error_not_login">未登录过CSH平台</string>
     <string name="em_error_parse_error">解析错误</string>
     <string name="em_error_err_unknown">网络问题请稍后重试</string>
     <string name="em_err_image_android_min_version">上传图片只支持4.4版本以上</string>
@@ -134,7 +134,7 @@
     <string name="em_friends_detail_chat">发消息</string>
     <string name="em_friends_detail_voice">语音通话</string>
     <string name="em_friends_detail_video">视频通话</string>
-    <string name="em_friends_detail_add_contact">添加到通讯录</string>
+    <string name="em_friends_detail_add_contact">添加到社区好友</string>
     <string name="em_friends_detail_add_black">加入黑名单</string>
     
     <string name="em_friends_group_contact_manage">我管理的</string>
@@ -280,7 +280,8 @@
 
     <string name="em_about_me_set">设置</string>
     <string name="em_about_me_feedback">意见反馈</string>
-    <string name="em_about_me_hx">关于社区预警与社交平台</string>
+    <string name="em_about_me_hx">社区新闻</string>
+    <string name="em_about_me_room">房间信息</string>
     <string name="em_about_me_developer">开发者服务</string>
     <string name="em_set_security">账号与安全</string>
     <string name="em_set_privacy">隐私</string>
@@ -307,7 +308,7 @@
     <string name="em_developer_service_result_unfinished">未完成</string>
     <string name="em_user_detail_title">个人资料</string>
     <string name="em_user_detail_avatar">头像</string>
-    <string name="em_user_detail_id">环信ID</string>
+    <string name="em_user_detail_id">CSH ID</string>
     <string name="em_user_detail_nickname">昵称</string>
     <string name="em_login_out_hint">是否退出？</string>
     <string name="em_developer_appkey_warning">当前appKey以及环境已经配置生效，更换当前appKey需重启客户端！</string>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@color/common_bg"
+    tools:context=".section.me.activity.AboutRoomActivity">
+
+    <com.hyphenate.easeui.widget.EaseTitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/em_common_title_bar_height"
+        app:titleBarTitle="@string/em_about_me_room"
+        app:titleBarDisplayHomeAsUpEnabled="true"
+        android:background="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingBottom="@dimen/em_margin_20"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/btn_add_sensor"
+            android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:src="@drawable/add_sensor_logo"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/tv_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            tools:text="后续添加更多传感器"
+            android:textSize="14sp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <com.hyphenate.easeim.common.widget.ArrowItemView
+        android:visibility="gone"
+        android:id="@+id/item_product"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/em_common_item_height"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/item_security"
+        android:layout_marginTop="20dp"
+        app:arrowItemAvatarHeight="@dimen/em_about_me_avatar_size"
+        app:arrowItemAvatarWidth="@dimen/em_about_me_avatar_size"
+        app:arrowItemTitle="@string/em_about_hx_product_introduction"
+        android:foreground="@drawable/demo_ripple_click_gray"
+        android:background="@color/white"/>
+
+
+    <com.hyphenate.easeim.common.widget.ArrowItemView
+        android:visibility="gone"
+        android:id="@+id/item_company"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/em_common_item_height"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/item_security"
+        app:arrowItemAvatarHeight="@dimen/em_about_me_avatar_size"
+        app:arrowItemAvatarWidth="@dimen/em_about_me_avatar_size"
+        app:arrowItemTitle="@string/em_about_hx_company_introduction"
+        android:foreground="@drawable/demo_ripple_click_gray"
+        android:background="@color/white"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:elevation="4dp"
+            android:background="@drawable/demo_bg_sensor_button"
+            android:layout_width="120dp"
+            android:layout_height="180dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/appCompatImageView"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/mq2_logo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="7dp"
+                android:layout_marginEnd="7dp"
+                android:layout_marginBottom="20dp"
+                android:text="烟雾无异常"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            style="?android:attr/borderlessButtonStyle"
+            android:elevation="4dp"
+            android:background="@drawable/demo_bg_sensor_button"
+            android:layout_width="120dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:src="@drawable/hc_logo"
+                android:layout_width="90dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="7dp"
+                android:layout_marginEnd="7dp"
+                android:layout_marginBottom="20dp"
+                android:text="室内无异常"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
